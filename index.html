@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanRoots - Transforming Cities</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <header>
+        <nav>
+            <div class="logo">🌱 UrbanRoots</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#join">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Transform Cities, One Garden at a Time</h1>
+        <p>Join the movement to bring green spaces to urban communities</p>
+        <a href="#join" class="cta-button">Get Started Today</a>
+    </section>
+
+    <main id="main">
+        <section class="features" id="features">
+            <h2>Why Urban Gardens Matter</h2>
+            <div class="feature-grid">
+                <article class="feature-card" tabindex="0">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <span class="card-icon">🌿</span>
+                            <h3>Sustainable Living</h3>
+                            <p>Grow your own food</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Reduce your carbon footprint by growing fresh produce right in your neighborhood!</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="feature-card" tabindex="0">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <span class="card-icon">👥</span>
+                            <h3>Community Building</h3>
+                            <p>Connect with neighbors</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Gardens bring people together. Share skills and build stronger communities.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="feature-card" tabindex="0">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <span class="card-icon">🌍</span>
+                            <h3>Environmental Impact</h3>
+                            <p>Heal the planet</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Combat climate change and support local biodiversity through urban greenery.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="stat-item" tabindex="0">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">Gardens Created</span>
+            </div>
+            <div class="stat-item" tabindex="0">
+                <span class="stat-number">12K</span>
+                <span class="stat-label">Active Members</span>
+            </div>
+            <div class="stat-item" tabindex="0">
+                <span class="stat-number">85%</span>
+                <span class="stat-label">Satisfaction Rate</span>
+            </div>
+        </section>
+
+        <section class="form-section" id="join">
+            <h2>Join the Movement</h2>
+            <form>
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="experience">Gardening Experience</label>
+                <select id="experience" name="experience">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+                
+                <label>What interests you?</label>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="vegetables" name="interests" value="vegetables">
+                    <span class="custom-checkbox"></span>
+                    <label for="vegetables">Growing Vegetables</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="herbs" name="interests" value="herbs">
+                    <span class="custom-checkbox"></span>
+                    <label for="herbs">Growing Herbs</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="flowers" name="interests" value="flowers">
+                    <span class="custom-checkbox"></span>
+                    <label for="flowers">Growing Flowers</label>
+                </div>
+                
+                <label>Preferred Garden Type *</label>
+                <div class="radio-item">
+                    <input type="radio" id="community" name="garden-type" value="community" required>
+                    <span class="custom-radio"></span>
+                    <label for="community">Community Garden</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="rooftop" name="garden-type" value="rooftop">
+                    <span class="custom-radio"></span>
+                    <label for="rooftop">Rooftop Garden</label>
+                </div>
+                
+                <label for="message">Tell us your vision</label>
+                <textarea id="message" name="message" placeholder="What do you hope to achieve?"></textarea>
+                
+                <button type="submit">Start Your Garden Journey</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 UrbanRoots Initiative. Growing a greener future together.</p>
+    </footer>
+</body>
+</html>
